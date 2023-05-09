@@ -8,7 +8,7 @@ interface AuthInputProps {
 }
 
 export function AuthInput(props: AuthInputProps) {
-    return props.naoRenderizarQuando ? null :(
+    return props.naoRenderizarQuando ? null : (
         <div className={`flex flex-col mt-4`}>
             <label>{props.label}</label>
             <input
